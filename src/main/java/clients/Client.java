@@ -9,8 +9,7 @@ public class Client {
     private String password;
 
     // Constructor
-    public Client(int idCliente, String name, String lastname,
-                  String mail, String password) {
+    public Client(int idCliente, String name, String lastname, String mail, String password) {
         this.idClient = idCliente;
         this.name = name;
         this.lastname = lastname;
