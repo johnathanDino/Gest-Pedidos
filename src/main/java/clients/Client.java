@@ -22,17 +22,17 @@ public class Client {
     public int getIdCliente() { return idClient; }
     public void setIdCliente(int idCliente) { this.idClient = idCliente; }
 
-    public String getname() { return name; }
-    public void setname(String name) { this.name = name; }
+    public String getName() { return name; }
+    public void setName(String name) { this.name = name; }
 
-    public String getlastname() { return lastname; }
-    public void setlastname(String lastname) { this.lastname = lastname; }
+    public String getLastname() { return lastname; }
+    public void setLastname(String lastname) { this.lastname = lastname; }
 
     public String getMail() { return mail; }
     public void setMail(String mail) { this.mail = mail; }
 
-    public String getpassword() { return password; }
-    public void setpassword(String password) { this.password = password; }
+    public String getPassword() { return password; }
+    public void setPassword(String password) { this.password = password; }
 
     @Override
     public String toString() {
